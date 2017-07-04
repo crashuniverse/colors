@@ -10,5 +10,41 @@
 }
 
 .black {
-  background-color: black;
+  background-color: #000000;
+}
+
+.red {
+  background-color: #D24D57;
+}
+
+.yellow {
+  background-color: #F5D76E;
+}
+
+.green {
+  background-color: #66CC99;
+}
+
+.blue {
+  background-color: #4ECDC4;
+}
+
+.white {
+  background-color: #FFFFFF;
+}
+
+.gray {
+  background-color: #666666;
+}
+
+.orange {
+  background-color: #EB9532;
+}
+
+.pink {
+  background-color: #DB0A5B;
+}
+
+.purple {
+  background-color: #8E44AD;
 }
