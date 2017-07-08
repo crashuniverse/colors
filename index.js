@@ -10,7 +10,6 @@ function activateBlockClick() {
 }
 
 function switchClass() {
-  console.log('block is clicked');
   var classes = ['black', 'red', 'yellow', 'green', 'blue', 'white', 'gray', 'orange', 'pink', 'purple'];
   var block = document.querySelector('.block');
   var activeClass = block.classList[1];
