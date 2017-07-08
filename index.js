@@ -14,7 +14,10 @@ function switchClass() {
   var block = document.querySelector('.block');
   var activeClass = block.classList[1];
   var index = classes.indexOf(activeClass);
+  var newIndex = index + 1;
+  if (index === classes.length - 1) {
+    newIndex = 0;
+  }
   block.classList.remove(activeClass);
-  var classToAdd = classes[index + 1];
-  block.classList.add(classToAdd);
+  block.classList.add(classes[newIndex]);
 }
