@@ -1,6 +1,7 @@
 .container {
   width: 900px;
   margin: 0 auto;
+  height: 100%;
 }
 
 .block {
@@ -9,7 +10,10 @@
   border: solid 1px black;
   cursor: pointer;
   transition: 0.3s;
+  float: left;
 }
+
+/* colors picked up from http://www.flatuicolorpicker.com/ */
 
 .black {
   background-color: #000000;
@@ -49,4 +53,28 @@
 
 .purple {
   background-color: #8E44AD;
+}
+
+/* utilities */
+
+.show {
+  display: initial;
+}
+
+.hide {
+  display: none;
+}
+
+.clear {
+  clear: both;
+}
+
+/* general */
+
+.cat {
+  float: left;
+}
+
+.cat img {
+  width: 400px;
 }
