@@ -10,10 +10,7 @@ function activateBlockClick() {
 }
 
 function proceed() {
-  var isLastColor = switchClass();
-  if (isLastColor) {
-    reward();
-  }
+  switchClass() && reward();
 }
 
 function switchClass() {
