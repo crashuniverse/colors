@@ -14,7 +14,9 @@ function proceed() {
 }
 
 function switchClass() {
-  var classes = ['black', 'red', 'yellow', 'green', 'blue', 'white', 'gray', 'orange', 'pink', 'purple'];
+  var classes = ['black', 'red', 'yellow', 'green', 'blue', 'white', 'gray',
+    'orange', 'pink', 'purple', 'brown', 'beige', 'light-green', 'turquoise',
+    'eggplant'];
   var isLastClass = false;
   var block = document.querySelector('.block');
   var activeClass = block.classList[1];

@@ -13,7 +13,8 @@
   float: left;
 }
 
-/* colors picked up from http://www.flatuicolorpicker.com/ */
+/* colors picked up from http://www.flatuicolorpicker.com/
+  and https://en.wikipedia.org/wiki/List_of_colors_by_shade */
 
 .black {
   background-color: #000000;
@@ -53,6 +54,26 @@
 
 .purple {
   background-color: #8E44AD;
+}
+
+.brown {
+  background-color: #61381B;
+}
+
+.beige {
+  background-color: #F5F5DC;
+}
+
+.light-green {
+  background-color: #90EE90;
+}
+
+.turquoise {
+  background-color: #40E0D0;
+}
+
+.eggplant {
+  background-color: #614051;
 }
 
 /* utilities */
